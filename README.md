@@ -24,7 +24,6 @@ This repository showcases my skills, projects, and journey in Data Analytics, So
     - [AI-Powered Sentiment Analysis for Suicide Prevention](#ai-powered-sentiment-analysis-for-suicide-prevention)
   - Web Development
     - [Portfolio Website](#portfolio-website)
-  - Tableau---> [Go to Tableau..](https://public.tableau.com/app/profile/rajatgupta)
   - Power BI
 - [Education](#education)  
 - [Certificates](#certificates)
@@ -86,6 +85,28 @@ This project involves data preprocessing, time series analysis, and data visuali
 - Analyzed relationships between key engagement metrics.  
 - Forecasted future session activity using the SARIMA model.  
 
+### Sales Dashboard Analysis  
+
+**Goal:**  
+Analyzing sales performance across products, time periods, and regions using an interactive dashboard.  
+
+**Description:**  
+This project involves data processing, visualization, and dashboard creation to explore sales trends. The dashboard includes various metrics such as sales quantity, total revenue, product performance, and time-based sales distribution.  
+
+**Skills:**  
+- Data visualization  
+- DAX (Data Analysis Expressions)  
+- Power BI dashboard design  
+- Data modeling and transformation  
+
+**Technology:**
+- Power BI  
+- SQL Server (for data extraction)  
+
+**Results:**  
+- Identified top-selling products and seasonal sales trends.  
+- Analyzed sales performance by product, month, and day of the week.  
+- Created an interactive dashboard for real-time decision-making.  
 
 
 ## Education
