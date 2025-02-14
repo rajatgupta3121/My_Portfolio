@@ -1,9 +1,10 @@
-# Rajat Gupta - Data Analyst & Software Developer
+# Rajat Gupta - Data Analyst/Data Scientist
 ## Contacts
 - LinkedIn: [@rajatgupta](https://www.linkedin.com/in/rajat-gupta-b86a58268/)
 - GitHub: [rajatgupta3121](https://github.com/rajatgupta3121)
 - Email: rajatgupta46300@gmail.com
 - Contact: +919794660840
+- Projects: https://github.com/rajatgupta3121
 
 ## About
 Hi, I'm Rajat! I am a highly motivated and detail-oriented individual with a strong foundation in software development, data analysis, and machine learning. Currently pursuing a Bachelor's in Computer Applications (BCA) at Allenhouse Business School, Kanpur (2022-2025), I have gained experience in Python, SQL, Tableau, and machine learning techniques. My passion lies in leveraging data-driven insights to build innovative solutions and improve efficiency in a dynamic work environment.
@@ -12,7 +13,7 @@ With hands-on experience in AI chatbot development, market basket analysis, and 
 
 In my free time, I explore new technologies, contribute to open-source projects, and enhance my skills in AI, deep learning, and automation.
 
-My CV in [pdf](https://drive.google.com/file/d/1y8BRHULYwzRPxS0siB3Vgrbo6iJkbeyL/view?usp=sharing).
+My CV in [pdf](https://drive.google.com/file/d/1iKUtzgfKV1ax7gnVDRs_K1GPwcHtsG06/view?usp=sharing).
 
 This repository showcases my skills, projects, and journey in Data Analytics, Software Development, and AI-driven solutions.
 
