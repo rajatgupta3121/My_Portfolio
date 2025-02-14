@@ -1,4 +1,9 @@
-# Rajat Gupta - Data Analyst & Software Developer Portfolio
+# Rajat Gupta - Data Analyst & Software Developer
+## Contacts
+- LinkedIn: [@rajatgupta](https://www.linkedin.com/in/rajat-gupta-b86a58268/)
+- GitHub: [rajatgupta3121](https://github.com/rajatgupta3121)
+- Email: rajatgupta46300@gmail.com
+- Contact: +919794660840
 
 ## About
 Hi, I'm Rajat! I am a highly motivated and detail-oriented individual with a strong foundation in software development, data analysis, and machine learning. Currently pursuing a Bachelor's in Computer Applications (BCA) at Allenhouse Business School, Kanpur (2022-2025), I have gained experience in Python, SQL, Tableau, and machine learning techniques. My passion lies in leveraging data-driven insights to build innovative solutions and improve efficiency in a dynamic work environment.
@@ -7,50 +12,55 @@ With hands-on experience in AI chatbot development, market basket analysis, and 
 
 In my free time, I explore new technologies, contribute to open-source projects, and enhance my skills in AI, deep learning, and automation.
 
-My CV in [pdf](https://github.com/rajatgupta3121/Data-Analysis-Portfolio/blob/main/Rajat%20Gupta%20CV.pdf).
+My CV in [pdf](https://drive.google.com/file/d/1y8BRHULYwzRPxS0siB3Vgrbo6iJkbeyL/view?usp=sharing).
 
 This repository showcases my skills, projects, and journey in Data Analytics, Software Development, and AI-driven solutions.
 
-## Table of Contents
-- [About](#about)
-- [Portfolio Projects](#portfolio-projects)
-  - Python
-    - [Movie Success Analysis](#movie-success-analysis)
-    - [Tech Store Sales Analysis](#tech-store-sales-analysis)
-  - SQL
-    - [Covid-19 Data Exploration](#covid-19-data-exploration)
-    - [Nashville Housing Data Cleaning](#nashville-housing-data-cleaning)
-  - Machine Learning
-    - [AI-Powered Sentiment Analysis for Suicide Prevention](#ai-powered-sentiment-analysis-for-suicide-prevention)
-  - Web Development
-    - [Portfolio Website](#portfolio-website)
-  - Power BI
-- [Education](#education)  
-- [Certificates](#certificates)
-- [Contact](#contacts)
-
 ## Portfolio Projects
-### Movie Success Analysis
-**Goal:** Analyzing factors contributing to a movie's success.
+### B2B Courier Charges Accuracy Analysis
 
-**Description:** This project examines data from 1980 to 2022, focusing on key attributes such as budgets, ratings, and gross earnings. It uses statistical techniques to identify patterns and key predictors of success.
+**Goal:** Analyzing and validating courier charges in a B2B setting to ensure invoice accuracy and cost optimization.
 
-**Skills:** Data cleaning, hypothesis testing, correlation analysis, data visualization.
+**Description:**
+- Compared invoiced courier charges with predefined courier company rates.
+- Merged datasets including Order Reports, SKU Master, Pincode Mapping, and Courier Invoices.
+- Detected discrepancies in pricing, weight calculations, and delivery charges.
+- Provided insights to minimize overcharges and optimize operational efficiency.
 
-**Technology:** Python, Pandas, Seaborn, Matplotlib, SciPy.
+**Skills:**
+- Data Cleaning & Preprocessing
+- Data Merging & Validation
+- Cost Optimization & Reporting
 
-**Results:** The analysis showed that budget and vote count have the highest correlation with gross earnings.
+**Technology:**
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- Jupyter Notebook
 
-### Tech Store Sales Analysis
-**Goal:** Extract insights from a tech store’s sales history to optimize performance.
+**Results:**
+- Identified incorrect courier charges and overcharges, saving up to 15% in logistics costs.
+- Improved invoicing accuracy and optimized courier billing processes.
 
-**Description:** This project analyzes sales records, including product categories, order details, and revenue trends.
+### Movie Recommendation System
 
-**Skills:** Data cleaning, EDA, visualization, business intelligence.
+**Goal:** Developing a content-based recommendation system to suggest movies based on user preferences.
 
-**Technology:** Python, Pandas, Matplotlib.
+**Description:**
+- Utilized TF-IDF vectorization to analyze movie plot similarities.
+- Implemented cosine similarity to recommend top 5 most relevant movies.
+- Integrated movie metadata such as genre, cast, and director for improved recommendations.
 
-**Results:** Identified high-performing products, peak sales periods, and customer purchasing behaviors.
+**Skills:**
+- Natural Language Processing (NLP)
+- Cosine Similarity & TF-IDF
+- Data Preprocessing & Feature Engineering
+
+**Technology:**
+- Python (Pandas, Scikit-learn, NLTK)
+- Flask for web-based deployment
+
+**Results:**
+- Achieved 85% accuracy in user preference matching.
+- Successfully deployed a web-based recommendation engine.
 
 ### ChatGPT Review Analysis
 
@@ -77,7 +87,7 @@ This project involves data preprocessing, time series analysis, and data visuali
 - Time series analysis  
 - Data visualization  
 
-**Technology:** 
+**Technology:**
 - Python (Pandas, Matplotlib, Seaborn, Statsmodels)   
 
 **Results:**
@@ -108,21 +118,37 @@ This project involves data processing, visualization, and dashboard creation to 
 - Analyzed sales performance by product, month, and day of the week.  
 - Created an interactive dashboard for real-time decision-making.  
 
+## Internships
+### Data Analyst Intern - Internship Studio (Mar 2024 – Apr 2024)
+- Conducted exploratory data analysis (EDA) on diverse datasets, delivering actionable data-driven insights.
+- Enhanced decision-making by utilizing SQL queries to extract database insights, addressing problem statements efficiently.
+
+### Data Scientist Intern - CipherByte Technology (May 2024 – June 2024)
+- Built and optimized a machine learning model to classify Iris flower species using algorithms like Logistic Regression, Decision Trees, and KNN.
+- Developed a machine learning model to classify emails as spam or not using NLP techniques, leveraging Naive Bayes and SVM.
+
+### Data Science & Machine Learning Intern - YBI Foundation (Jul 2024 – Aug 2024)
+- Implemented and fine-tuned machine learning models for predictive analytics and classification tasks.
+- Applied various data science techniques to preprocess and clean large datasets, ensuring data quality for further analysis.
+- Collaborated with a team to deliver actionable insights and data visualizations to support strategic decision-making.
 
 ## Education
 **Allenhouse Business School, Kanpur**  
 Bachelor of Computer Applications (BCA), 2022-2025
 
 ## Certificates
-- [Google Data Analytics Professional Certificate](https://www.coursera.org/account/accomplishments/professional-cert/LRQ498UKBBSJ) (Sep 2022)  
-- [Python for Data Science (IIT Madras - NPTEL)](https://nptel.ac.in/certificates/python-data-science) (2023)  
-- [TensorFlow Professional Specialization (Deeplearning.ai - Coursera)](https://coursera.org/share/tensorflow-cert) (2023)  
-- [Power BI Data Analyst (Microsoft)](https://learn.microsoft.com/en-us/certifications/power-bi-data-analyst/) (2023)  
-- Artificial Intelligence Primer Certificate (Infosys Springboard)  
-- Published Data Science Projects on GitHub  
+- Building Generative AI Applications Using Amazon Bedrock (AWS)
+- OpenAI Generative Pre-Trained Transformers -3(GPT-3) for Developers (Infosys Springboard)
+- Python for Data Science (IIT Madras - NPTEL)
+- Google Analytics Certificate (Google)
+- TensorFlow Professional Specialization (Deeplearning.ai - Coursera)   
+- Artificial Intelligence Primer Certificate (Infosys Springboard)
+- SQL-50 Certification (LeetCode)
+- Programming,Data structure and Algorithms using Python (IIT Madras - NPTEL)
+  
+##Professional Achievements 
+-  Letter of Recommendation from CipherByte Technologies for outstanding data science contributions. 
+-  Certificate of Appraisal from IBM for representing Allenhouse Business School at IBM CSR Annual Event 2024.
 
-## Contacts
-- LinkedIn: [@rajatgupta](https://www.linkedin.com/in/rajat-gupta-b86a58268/)
-- GitHub: [rajatgupta3121](https://github.com/rajatgupta3121)
-- Email: rajatgupta46300@gmail.com
+
 
