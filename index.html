@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Responsive Portfolio Website Design</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        // Toggle Dark Mode
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+}
+
+// Expand/Collapse Details
+function toggleDetails(section) {
+    let details = section.querySelector('.experience-details');
+    let icon = section.querySelector('.expand-icon');
+
+    if (details.style.display === "block") {
+        details.style.display = "none";
+        icon.textContent = "+";
+    } else {
+        details.style.display = "block";
+        icon.textContent = "−";
+    }
+}
+
+    </script>
+</head>
+
+<body>
+<!-- header design -->
+<header class="header">
+    <a href="#" class="logo">Portfolio.</a>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#certificate">Certificate</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="bx bx-moon" id="darkMode-icon"></div>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+</header>
+        <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Rajat Gupta</h1>
+           
+            <div class="social-media">
+                <a href="https://github.com/rajatgupta3121" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/rajat-gupta-b86a58268?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5rQNzBq1RjKReQH%2Bh38yCg%3D%3D" target="_blank "><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-bar-chart-alt'></i>
+                    <h3>Data Analyst</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-scatter-chart'></i>
+                    <h3>Data Scientist</h3>
+                </div>
+
+                <div class="profession" style="--i:3;">
+                    <i class='bx bxs-dashboard'></i>
+                    <h3>Business Analyst</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/rg.png" alt="">
+        </div>
+    </section>
+
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>
+                Hi there, welcome to my website! I'm Rajat,  
+                a passionate web developer, data scientist, and AI enthusiast  
+                who enjoys learning new technologies and solving real-world problems with code!
+            </h3>
+            <p>
+                This website showcases my projects in web development, AI, data science, and machine learning.  
+                I have worked on AI-powered applications, chatbots, and alumni networking platforms,  
+                and I love exploring innovative solutions that create a positive impact.
+            </p>
+            <p>
+                Thank you for visiting my portfolio! I hope you find my work inspiring and insightful.  
+                Feel free to explore my projects, and if you’d like to collaborate or connect,  
+                don’t hesitate to reach out. I’d love to hear from you!
+            </p>
+        </div>
+    </section>
+    
+    <!-- experience section -->
+<section class="experience" id="experience">
+        <h2 class="heading">Work Experience</h2>
+<!-- CipherByte Technologies -->
+    <div class="experience-section" onclick="toggleDetails(this)">
+        <h3 class="job-title">Data Science Intern <span class="company">| CipherByte Technologies</span></h3>
+        <p class="date">May 2024 - July 2024</p>
+        <div class="expand-icon">+</div>
+
+        <div class="experience-details hidden">
+        <ul>
+            <li>Developed and deployed a Logistic Regression model, achieving an  85% accuracy  on the Iris dataset, improving classification efficiency by  15%  over baseline models.</li>
+            <li>Implemented an  NLP-based spam detection model using Naive Bayes & SVM , achieving  92% accuracy , reducing false positives by  18% .</li>
+            <li>Optimized data preprocessing pipelines, reducing data preparation time by  30%  through automation.</li>
+            <li>Collaborated with cross-functional teams, enhancing data workflows and communication efficiency by  20% .</li>
+        </ul>
+        <div class="progress-container">
+            <p>Machine Learning Model Accuracy</p>
+            <div class="progress-bar"><div class="progress iris" style="width: 85%;">85%</div></div>
+            <p>Email Spam Detection Model Accuracy</p>
+            <div class="progress-bar"><div class="progress spam" style="width: 92%;">92%</div></div>
+        </div>
+        <a href="https://github.com/rajatgupta3121/CBTCIP" target="_blank" class="github-btn">
+            <i class="fab fa-github"></i> View on GitHub
+        </a>
+    </div>
+</div>
+<!-- Internship Studio -->
+<div class="experience-section" onclick="toggleDetails(this)">
+    <h3 class="job-title">Data Analyst Intern <span class="company">| Internship Studio</span></h3>
+    <p class="date">March 2024 - May 2024</p>
+    <div class="expand-icon">+</div>
+
+    <div class="experience-details hidden">
+        <ul>
+            <li>Performed adata cleaning and preprocessing  on retail transaction data, improving data quality and reducing errors by  35% .</li>
+            <li>Executed over  500 SQL queries  for data extraction, aggregation, and customer churn analysis, reducing query execution time by  25% .</li>
+            <li>Developed  20+ interactive visualizations  using Matplotlib and Seaborn to present actionable insights, increasing stakeholder engagement by  40% .</li>
+            <li>Implemented an advanced customer churn prediction model, increasing prediction accuracy by  10% , aiding in strategic decision-making.</li>
+        </ul>
+        <div class="progress-container">
+            <p>Data Cleaning & Processing Efficiency</p>
+            <div class="progress-bar"><div class="progress data" style="width: 90%;">90%</div></div>
+            <p>SQL Query Optimization & Execution</p>
+            <div class="progress-bar"><div class="progress sql" style="width: 88%;">88%</div></div>
+        </div>
+        <a href="https://github.com/rajatgupta3121/CBTCIP" target="_blank" class="github-btn">
+            <i class="fab fa-github"></i> View on GitHub
+        </a>
+    </div>
+  </div>
+</section>
+<!-- education section -->
+<section class="education" id="education">
+    <h2 class="heading"><span>Education</span></h2>
+    <div class="edu-container">
+        <div class="edu-card">
+            <div class="edu-content">
+                <h3>Bachelor's in Computer Applications (BCA)</h3>
+                <p>Allenhouse Business School, Kanpur</p>
+                <span>2022 - 2025</span>
+            </div>
+        </div>
+        <div class="edu-card">
+            <div class="edu-content">
+                <h3>Intermediate</h3>
+                <p>KPY Jansahyogi Inter College</p>
+                <span>2020 - 2022</span>
+            </div>
+        </div>
+       
+    </div>
+</section>
+<!-- skill section -->
+<section class="skills" id="skills">
+    <h2 class="heading">Technical <span>Skills</span></h2>
+    <div class="skills-section">
+        <div class="skills-container">
+            
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <i class="fas fa-code"></i>
+                        <span>Programming</span>
+                    </div>
+                    <div class="flip-card-back">
+                        Python (Pandas, NumPy, Scikit-learn), SQL
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <i class="fas fa-brain"></i>
+                        <span>Machine Learning</span>
+                    </div>
+                    <div class="flip-card-back">
+                        Supervised & Unsupervised Learning, Deep Learning (TensorFlow, Keras), NLP
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Data Analytics</span>
+                    </div>
+                    <div class="flip-card-back">
+                        Data Collection, Preprocessing, EDA
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <i class="fas fa-chart-pie"></i>
+                        <span>Data Visualization</span>
+                    </div>
+                    <div class="flip-card-back">
+                        Power BI, Matplotlib, Seaborn
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <i class="fas fa-database"></i>
+                        <span>ETL & Data Processing</span>
+                    </div>
+                    <div class="flip-card-back">
+                        Data Wrangling, Automation, Feature Engineering
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <i class="fas fa-server"></i>
+                        <span>MLOps & Deployment</span>
+                    </div>
+                    <div class="flip-card-back">
+                        Flask, FastAPI, Streamlit
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <i class="fas fa-cogs"></i>
+                        <span>Model Development</span>
+                    </div>
+                    <div class="flip-card-back">
+                        Predictive Modeling, Business Problem-Solving
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <i class="fas fa-file-excel"></i>
+                        <span>Spreadsheet & Reporting</span>
+                    </div>
+                    <div class="flip-card-back">
+                        MS Excel (Pivot Tables, VLOOKUP, Power Query, Macros)
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</section>
+
+     <!-- Services Section -->
+<section class="services" id="services">
+    <h2 class="heading">My <span>Services</span></h2>
+
+    <div class="services-container">
+        <div class="services-box">
+            <i class='bx bx-code-alt'></i>
+            <h3>Web Development</h3>
+            <p>
+                I specialize in creating modern, responsive, and dynamic websites  
+                using the latest technologies like HTML, CSS, JavaScript, Django, and Flask.  
+                Whether you need a business website, portfolio, or an AI-integrated platform,  
+                I can build it with a seamless user experience.
+            </p>
+        </div>
+        
+        <div class="services-box">
+            <i class='bx bx-brain'></i>
+            <h3>AI & Data Science Solutions</h3>
+            <p>
+                From predictive analytics to AI-driven applications,  
+                I develop machine learning models and intelligent chatbots  
+                that provide smart insights and automate processes.  
+                I have expertise in Python, TensorFlow, and NLP-based solutions.
+            </p>
+        </div>
+        
+        <div class="services-box">
+            <i class='bx bx-mobile-alt'></i>
+            <h3>Android App Development</h3>
+            <p>
+                I build feature-rich Android applications using Java and WebView,  
+                integrating AI, real-time chat, and facial emotion detection.  
+                My apps are designed to enhance user engagement and functionality.
+            </p>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bx-line-chart'></i>
+            <h3>Digital Marketing & Analytics</h3>
+            <p>
+                With a background in business analysis and marketing,  
+                I provide data-driven strategies to enhance online presence.  
+                I specialize in SEO, campaign optimization, and Power BI for performance analytics.
+            </p>
+        </div>
+    </div>
+</section>
+
+      <!-- Portfolio Section -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="images/ai-chatbot.jpg" alt="AI Chatbot for College Website">
+            <div class="portfolio-layer">
+                <h4>AI Chatbot Using Deep Learning and NLTK</h4>
+                <p>Developed an AI-powered chatbot using LSTM & NLP, enhancing user engagement by 35%. Achieved 90% response accuracy.</p>
+                <a href="https://github.com/rajatgupta3121/Alumni_Bot/tree/main" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images\powerbi-dashboard.jpg.png" alt="Sales Analysis and Forecasting Dashboard">
+            <div class="portfolio-layer">
+                <h4>Sales Analysis & Forecasting Dashboard</h4>
+                <p>Created a Power BI dashboard analyzing 3+ years of sales data. Automated trend analysis, improving reporting efficiency by 25%.</p>
+                <a href="https://github.com/rajatgupta3121/Sales_PowerBI_Dashboard" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/website-analysis.jpg" alt="Website Performance Analysis">
+            <div class="portfolio-layer">
+                <h4>Website Performance Analysis</h4>
+                <p>Conducted time-series analysis on 100,000+ website traffic data points, forecasting future sessions with 92% accuracy using SARIMA.</p>
+                <a href="https://github.com/rajatgupta3121/Website_performance_analysis" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/chatgpt-review.jpg" alt="ChatGPT Review Analysis">
+            <div class="portfolio-layer">
+                <h4>ChatGPT Review Analysis</h4>
+                <p>Performed sentiment analysis on 190,000+ user reviews. Identified 70% positive, 25% neutral, and 5% negative sentiments.</p>
+                <a href="https://github.com/rajatgupta3121/Chatgpt_review_analysis" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/courier-analysis.jpg" alt="B2B Courier Charges Analysis">
+            <div class="portfolio-layer">
+                <h4>B2B Courier Charges Analysis</h4>
+                <p>Analyzed 10,000+ transactions, uncovering a 95.3% overcharging rate. Identified billing discrepancies and recommended corrective actions.</p>
+                <a href="https://github.com/rajatgupta3121/B2B_Courier_charge_analysis" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="images/sugar_image.webp" alt="Sugar Production Analysis">
+            <div class="portfolio-layer">
+                <h4> Sugar Production Analysis</h4>
+                <p>The Sugar Production Analysis project examines 10+ years of data (100,000+ records) to uncover trends, regional variations, and climate impacts on production. Using Python, ML models, and visualizations. </p>
+                <a href="https://github.com/rajatgupta3121/Sugar_production_analysis" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- testimonial design -->
+    <section class="certificate" id="certificate">
+        <div class="testimonial-container">
+            <h2 class="heading">Valuable <span>Certifications</span></h2>
+    
+            <div class="testimonial-wrapper">
+                <div class="testimonial-box mySwiper">
+                    <div class="testimonial-content swiper-wrapper">
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="images/open-ai.jpg" alt="OpenAI GPT-3 Certification">
+                            <h3>OpenAI GPT-3 for Developers</h3>
+                            <p>Earned certification from Infosys Springboard, mastering the fundamentals and implementation of OpenAI’s GPT-3 technology for AI-driven applications.</p>
+                        </div>
+    
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="images/nptel_1.jpg" alt="Python for Data Science - IIT Madras">
+                            <h3> Python for Data Science – IIT Madras (NPTEL)</h3>
+                            <p>Covers Python programming for data science, including NumPy, Pandas, and Matplotlib.
+                                Focuses on data manipulation, visualization, and basic machine learning concepts.
+                                Enhances analytical skills for real-world data-driven decision-making.</p>
+                        </div>
+    
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="images/coursera.png" alt="TensorFlow Specialization">
+                            <h3>TensorFlow Professional Specialization</h3>
+                            <p>Achieved professional-level expertise in TensorFlow from DeepLearning.ai (Coursera), mastering deep learning model development and deployment.</p>
+                        </div>
+    
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="images/nptel_2.jpg" alt="TensorFlow Specialization">
+                            <h3>Programming, Data Structures & Algorithms in Python – IIT Madras (NPTEL)</h3>
+                            <p>Explores data structures like arrays, linked lists, trees, and graphs in Python.
+                                Covers sorting algorithms, recursion, and dynamic programming techniques.
+                                Develops problem-solving skills for software development and competitive coding.</p>
+                        </div>
+    
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="images/infosys_scrum.jpeg" alt="scrum">
+                            <h3>Infosys Scrum In Practice Certification</h3>
+                            <p>This certificate validates expertise in Scrum methodology.
+                                It covers Agile principles, sprint planning, and backlog management.
+                                The course enhances team collaboration and iterative development skills.
+                                It provides insights into real-world Scrum implementation.
+                                This certification is valuable for project management and Agile roles.</p>
+                        </div>
+    
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="images/scalor_workshop.jpeg" alt="scalor">
+                            <h3> Scalar Workshop Certification – Machine Learning & AI Workshop</h3>
+                            <p>Recognizes hands-on learning in machine learning and AI techniques.
+                                Covers model training, feature engineering, and ML algorithm implementation.
+                                Provides real-world insights into AI-driven decision-making.
+                                Enhances technical expertise in predictive modeling and automation.</p>
+                        </div>
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="images/hp_DS.jpeg" alt="hp">
+                            <h3>HP LIFE - Data Science & Analytics</h3>
+                            <p>This certification focuses on essential data science and analytics methodologies for business decision-making. It covers data-driven approaches, statistical analysis, and visualization techniques. 
+                                Learners explore key concepts like predictive modeling and machine learning applications. The course highlights real-world challenges in Google Analytics Certificationdata analytics and problem-solving. It prepares individuals
+                                 for a career in data science by strengthening analytical skills.</p>
+                        </div>
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="images/google.jpg" alt="google">
+                            <h3>Google Analytics Certification</h3>
+                            <p>This certification validates expertise in Google Analytics, covering data collection, processing, and report generation. It teaches how to track and analyze user interactions for website performance insights.
+                                 Topics include segmentation, audience targeting, and data visualization. The course emphasizes interpreting key metrics for business decision-making. It enables professionals to optimize digital marketing
+                                  strategies using data-driven insights.</p>
+                        </div>
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="images/Guvi.jpeg" alt="Guvi">
+                            <h3>Guvi : Python Foundation certificate</h3>
+                            <p>This certification validates proficiency in AI and data science concepts.
+                                Guvi, an online learning platform, provides industry-relevant skills.
+                                It covers hands-on exercises for real-world problem-solving.
+                                The course enhances knowledge in Python, ML, and AI fundamentals.
+                                It demonstrates expertise in data-driven decision-making.</p>
+                        </div>
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="images/infosys_ai_primer.jpeg" alt="primer">
+                            <h3> Infosys AI Primer Certification</h3>
+                            <p>This certificate showcases foundational knowledge in AI.
+                                It covers key AI concepts, applications, and real-world use cases.
+                                Infosys' course emphasizes responsible AI development.
+                                It enhances understanding of AI's role in business and technology.
+                                This certification strengthens AI expertise for career growth.</p>
+                        </div>
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="images/infosys_rpa.jpeg" alt="RPA">
+                            <h3>Infosys RPA Certification</h3>
+                            <p>This certificate showcases knowledge of Robotic Process Automation (RPA).
+                                It covers automation frameworks, bots, and process optimization.
+                                The course focuses on streamlining workflows with AI-driven automation.
+                                It enhances skills in UIPath, Automation Anywhere, and Blue Prism.
+                                This certification is crucial for roles in process automation and AI.</p>
+                        </div>
+    
+                        
+                    </div>
+    
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <div class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+         <p>Contact Number : +91 9794660840</p>
+         <p>Email: rajatgupta46300@gmail.com</p>
+         <p><a href="https://www.linkedin.com/in/rajat-gupta-b86a58268?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5rQNzBq1RjKReQH%2Bh38yCg%3D%3D" target="_blank" style="color: gold;">Linkedin</a></p>
+      
+        
+    </div>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
